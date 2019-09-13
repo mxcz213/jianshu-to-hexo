@@ -1,0 +1,30 @@
+{
+  "name": "jianshu-to-hexo",
+  "version": "1.0.0",
+  "description": "下载简书的文章批量转换到 hexo 博客里",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxcz213/jianshu-to-hexo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxcz213/jianshu-to-hexo/issues"
+  },
+  "homepage": "https://github.com/mxcz213/jianshu-to-hexo#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "runscript": "^1.4.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.3"
+  },
+  "bin": {
+    "tohexo": "./bin/tohexo"
+  }
+}
